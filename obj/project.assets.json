@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Fleck/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/Fleck.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Fleck.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.0-preview.7.23375.9": {
         "type": "package",
         "dependencies": {
@@ -111,6 +120,21 @@
     }
   },
   "libraries": {
+    "Fleck/1.2.0": {
+      "sha512": "bPLXn6QbLAFoviur6XbrKB0Zn6x04E8VibHXyHZeJsoC7bkUl5DVtzM5cZgDuqHkIrBqAXJyTNJwSNIc6wBJ2Q==",
+      "type": "package",
+      "path": "fleck/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fleck.1.2.0.nupkg.sha512",
+        "fleck.nuspec",
+        "lib/net40/Fleck.dll",
+        "lib/net45/Fleck.dll",
+        "lib/netcoreapp2.0/Fleck.dll",
+        "lib/netstandard2.0/Fleck.dll"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/8.0.0-preview.7.23375.9": {
       "sha512": "asavu+PqUoH2CZh7sj7scNUHbiOVtZR6GJHvqKsKDPh9lwwAFKCVKDbD5/KESa7uTwtES672Rgo/4WW9WNwjaA==",
       "type": "package",
@@ -455,6 +479,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Fleck >= 1.2.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0-preview.7.23375.9",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -507,6 +532,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Fleck": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.0-preview.7.23375.9, )"

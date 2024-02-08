@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u9LpsrpUYKukXfawYvbdo4BTkxNOJm4w8bh00ivGkHFJztEZlMTZO80U1g4WiaeYRul7x/P+maiidAL9QvBI0g==",
+  "dgSpecHash": "sYBUDLWMS5KqP3EhXQebLauHUtSB25Q1Gp6FEQK42Y1fqN+n+8IzgWbwSr8VKcJVue8wArn76fVgfaqfD+z0MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mail\\Documents\\Github\\Fullstackws\\Fullstackws.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mail\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512",
     "C:\\Users\\mail\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0-preview.7.23375.9\\microsoft.aspnetcore.openapi.8.0.0-preview.7.23375.9.nupkg.sha512",
     "C:\\Users\\mail\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mail\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
