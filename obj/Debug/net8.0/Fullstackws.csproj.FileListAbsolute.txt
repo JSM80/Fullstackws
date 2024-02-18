@@ -39,3 +39,6 @@ C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\frontend\package.jso
 C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\frontend\tsconfig.app.json
 C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\frontend\tsconfig.json
 C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\frontend\tsconfig.spec.json
+C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\lib.dll
+C:\Users\mail\Documents\Github\Fullstackws\bin\Debug\net8.0\Websocket.Client.dll
